@@ -9,7 +9,8 @@ padding-top: 5%;
 padding: 2.5%;
 }
 body {
-  background-color: rgb(90, 94, 95);
+  background-color: wheat;
+  background-attachment: fixed;
   border-style: double;
   padding: 5%;
   color-interpolation-filters: sRGB; 
