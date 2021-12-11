@@ -1,0 +1,21 @@
+.content {
+  background-color: tomato;
+color: rgb(3, 3, 3);
+align-content: space-around;
+font-size: 20px;
+font-style: unset;
+padding-left: 10%;
+padding-top: 5%;
+padding: 2.5%;
+}
+body {
+  background-color: rgb(90, 94, 95);
+  border-style: double;
+  padding: 5%;
+  color-interpolation-filters: sRGB; 
+}
+.head {
+  text-align: center;
+  font: bold;
+  font-family: fantasy;
+}

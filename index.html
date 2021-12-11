@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Akan Date System</title>
+    <script src="js/scripts.js"></script> 
+    <link rel="stylesheet" href="css/index.css" media="all" >
+    <link rel="icon" href="Images/abstract-art-black-background-blur-thumbnail.jpg" type="img/jpg">
+  </head>
+  <body>
+    <div class="content">
+      <div class="head">
+    <h1>The Akan Naming System</h1>
+    </div>     
+         <p>Hello there! This is a web application that takes your birthday details and calculates the day of the week you were born.</p> 
+         <p>Then depending on your gender, it outputs your Akan Name. <a class="research" href="https://en.wikipedia.org/wiki/Akan_names" target="_blank">Akan Naming System</a> are derived from Ghanian culture. In Ghana, children are given their first name according to the day of the week they were born.</p>
+         <p>To find out what your Akan name is, fill the form below and clicking the generate name button and check below for the name.</p>
+          <form>
+      <lable for="year of birth">
+       year:
+        <input id="year-input" type="number" name="year-of-birth" placeholder="yyyy" value="" required>
+      </lable>
+      <lable for="month-of-birth">
+       month:
+        <input id="month-input" type="number" name="month-of-birth" placeholder="mm" value="" required>
+      </lable>
+      <lable for="Date-of-birth">
+       Date:
+        <input id="date-input" type="number" name="date-of-birth" placeholder="dd" value="" required>
+      </lable>
+   <br>
+      <lable for="gender">
+         <p>select your gender:</p>
+       male:
+        <input id="male-inpput" type="radio" name="gender" value="male" required>
+       female:
+        <input id="female-input" type="radio" name="gender" value="female" required>
+      </lable>
+   <br><br>
+        <input id="get-name" type="submit" value="generate name" name="">
+   <br><br>
+    </form>
+    <form onsubmit="return clearInput()">
+        <input class="clear" type="submit" value="clear input">
+    </form>
+    <h4><em>Your Akan name will be displayed down-below:</em></h4>
+        <p id="result"> </p>
+    </div>
+  </body>
+</html>
+
